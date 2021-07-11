@@ -1,0 +1,33 @@
+{
+  "name": "zoxsys/php-linked-list",
+  "description": "This packages let you perform linked list operation in php",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Zoxsys Technologies",
+      "email": "info@zoxsys.in"
+    },
+    {
+      "name": "Ravi Tiwari",
+      "email": "ravi.zoxsys@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Zoxsys\\Ds\\LinkedList\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Zoxsys\\Ds\\LinkedList\\Tests\\": "tests/"
+    }
+  },
+  "minimum-stability": "stable",
+  "require": {
+    "php": "7.4.*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "9.5.*",
+    "bamarni/composer-bin-plugin": "9999999-dev"
+  }
+}
